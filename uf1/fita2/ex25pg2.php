@@ -1,6 +1,6 @@
 <html>
 <body>
-    <form action="ex5_pg3.php" method="post">
+    <form action="ex25pg3.php" method="post">
         <?php
         for ($i=0; $i < $_GET["items"]; $i++) {
             echo '<label for="text'.$i.'">Text '.$i.'</label>';

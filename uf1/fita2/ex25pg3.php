@@ -1,6 +1,6 @@
 <html>
 <body>
-    <form action="ex5_pg4.php" method="post">
+    <form action="ex25pg4.php" method="post">
         <?php
         foreach ($_POST["texts"] as $i => $text) {
             echo '<input type="checkbox" id="check'.$i.'" name="checks[]" value="'.$text.'">';

@@ -12,9 +12,9 @@
 Escull skin:
 <select name="skin">
     <option value="Cap" selected>-- Cap skin --</option>
-    <option value="ex3_foc.css">FOC!</option>
-    <option value="ex3_aigua.css">~aIGuA~</option>
-    <option value="ex3_terra.css">terra</option>
+    <option value="ex23_foc.css">FOC!</option>
+    <option value="ex23_aigua.css">~aIGuA~</option>
+    <option value="ex23_terra.css">terra</option>
 </select>
 <br>
 <input type="submit" value="Canviar skin">   
