@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid gray;
+            width: 2em;
+            height: 1em;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
