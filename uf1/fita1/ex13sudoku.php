@@ -27,6 +27,7 @@
     </style>
 </head>
 <body>
+
     <h2>Exercici 1.3 - Sudoku</h2>
     <h4>Ex1. Taulell</h4>
 

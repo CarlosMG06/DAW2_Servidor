@@ -1,13 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
 <?php
     if ($_POST["skin"] !== "" && $_POST["skin"] !== "Cap") {
         echo '<link rel="stylesheet" href="'.$_POST["skin"].'">';
     }
 ?>
+
 </head>
 <body>
-
+    
 <form action="ex3_pagina1.php" method="post">
 Escull skin:
 <select name="skin">
