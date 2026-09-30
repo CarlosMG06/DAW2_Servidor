@@ -10,3 +10,4 @@ echo "<p>Aquesta línia l'hem escrita en PHP</p>";
 <p style="color:orange;">Aquesta línia torna a ser HTML</p>
 
 <a href="fita1/exercicis.php">Fita 1 - Exercicis</a>
+<a href="fita2/exercicis.php"></a>
