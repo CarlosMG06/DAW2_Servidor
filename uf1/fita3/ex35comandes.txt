@@ -1,0 +1,5 @@
+oddTodd,prod1,prod3,prod5,prod7,prod9
+evenSteven,prod2,prod4,prod6,prod8
+avgJoe,prod4,prod5,prod6
+extremeSally,prod1,prod2,prod8,prod9
+choosyCheryl,prod1,prod2,prod3,prod4,prod6,prod7,prod8

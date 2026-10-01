@@ -6,24 +6,31 @@
     <title>Botiga</title>
 </head>
 <body>
-    <form action="ex35botiga.php" method="post">
+    <form action="" method="post">
         <?php
         $productesStr = file_get_contents("ex35productes.txt");
         $productes = explode("\n", $productesStr);
         for ($i=0; $i < count($productes); $i++) { 
             $prod = $productes[$i];
-            echo '<input type="checkbox" id="check'.$i.'" name="checks[]" value="'.$prod.'">';
+            echo '<input type="checkbox" id="check'.$i.'" name="prods[]" value="'.$prod.'">'."\n";
+            echo '<label for="check'.$i.'">'.$prod.'</label><br>'."\n";
         }
         ?>
-        <input type="checkbox" name="" id="">
-        <label for="username"></label>
+        <label for="username">Nom d'usuari: </label>
         <input type="text" name="username" id="username">
         <input type="submit" value="Enviar">
     </form>
 
     <?php
     if ($_POST) {
-
+        var_dump($_POST["prods"]);
+        $comanda = $_POST["username"];
+        if ($_POST["prods"]) {
+            $comanda .= ",";
+            $comanda .= join(",", $_POST["prods"]);
+        }
+        $comanda .= "\n";
+        file_put_contents("ex35comandes.txt", $comanda, FILE_APPEND);
     }
     ?>
 </body>
