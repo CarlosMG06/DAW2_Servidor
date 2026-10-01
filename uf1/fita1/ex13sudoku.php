@@ -77,7 +77,7 @@
 ?>
     </table>
 
-    <h4>Ex3. Cel·les amb camps de formulari - "jugable" (emplenable)</h4>
+    <h4>Ex3. Cel·les amb camps de formulari - "jugable" (emplenable, però sovint insoluble)</h4>
 
     <form>
     <table>

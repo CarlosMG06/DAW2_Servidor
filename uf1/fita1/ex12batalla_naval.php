@@ -20,7 +20,7 @@
 <body>
 
     <h2>Exercici 1.2 - Batalla Naval</h2>
-    <h4>Ex1 (Copiar 1.1.4)</h4>
+    <h4>Ex1. (Copiar 1.1.4)</h4>
 
     <?php
     $rows = 10;
@@ -142,7 +142,7 @@
     echo "</table>";
     ?>
 
-    <h4>Ex4. partida amb vaixells random (permet solapats, adjacents i sortint-se fora)</h4>
+    <h4>Ex4. partida amb vaixells a l'atzar (permet solapats, adjacents i sortint-se fora)</h4>
 
     <?php
     $rows = 10;

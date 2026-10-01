@@ -14,7 +14,7 @@
 </head>
 <body>
     
-<form action="ex3_pagina1.php" method="post">
+<form action="" method="post">
 Escull skin:
 <select name="skin">
     <option value="Cap" selected>-- Cap skin --</option>
