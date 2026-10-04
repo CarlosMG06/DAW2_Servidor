@@ -6,10 +6,11 @@
     <title>Ex 4.1 - Endevina el número</title>
 </head>
 <body>
-    <h1>ENREGISTRA NOMBRE</h1>
-    <form action="ex41pagina2.php" method="post">
-        <input type="number" name="ocult" id="ocult">
-        <input type="submit" value="Enregistrar">
-    </form>
+    <h1>NOMBRE ENREGISTRAT</h1>
+    <?php
+        session_start();
+        $_SESSION["ocult"] = $_POST["ocult"];
+    ?>
+    <a href="ex41pagina3.php">Endevinar</a>
 </body>
 </html>
