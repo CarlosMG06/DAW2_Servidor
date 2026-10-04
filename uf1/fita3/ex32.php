@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 3.2: Dades amb separador</title>
+    <title>Ex 3.2 - Afegir dades amb separador</title>
     <style>
         textarea {resize: none; width: 30%; height: 6em; }
 

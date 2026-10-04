@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquina d'escriure</title>
+    <title>Ex 4.3 - Teclat en pantalla</title>
     <style>
         div {
             background-color: powderblue;
@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-    <h1>Maquina d'escriure</h1>
+    <h1>Teclat en pantalla</h1>
       
     <?php
     session_start();

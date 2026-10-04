@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 3.4: Article</title>
+    <title>Ex 3.4 - Conversor d'article de wiki</title>
 </head>
 <body>
 <?php
