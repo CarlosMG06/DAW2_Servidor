@@ -9,10 +9,10 @@
     
     <h1>Fita 4: Ús de PHP Sessions</h1>
 
-    <p><a href="ex41pagina1.php">Exercici 4.1</a></p>
-    <p><a href="ex42pagina1.php">Exercici 4.2</a></p>
-    <p><a href="ex43pagina1.php">Exercici 4.3</a></p>
-    <p><a href="ex44pagina1.php">Exercici 4.4</a></p>
+    <?php
+    require_once "../../navigation_utils.php";
+    llistarFitxers("pagina1");
+    ?>
 
 </body>
 </html>

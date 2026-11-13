@@ -7,12 +7,12 @@
 </head>
 <body>
 
-    <h1>Unitat 1 - Fites</h1>
+    <h1>Unitat 1 - Intro a Desenv. Web en entorn Servidor</h1>
 
-    <a href="fita1/index.html">Fita 1</a>
-    <a href="fita2/index.html">Fita 2</a>
-    <a href="fita3/index.html">Fita 3</a>
-    <a href="fita4/index.html">Fita 4</a>
+    <?php
+    require_once "../navigation_utils.php";
+    llistarDirectoris();
+    ?>
 
 </body>
 </html>

@@ -21,7 +21,7 @@
         echo "<p>Bon dia, ".$_POST[name]."!</p>";
     } else {
         echo "<p>Login incorrecte.</p>";
-        echo "<a href='ex1_form.html'>Torna</a>";
+        echo "<a href='ex21pg1.html'>Torna</a>";
     }
 
     ?>

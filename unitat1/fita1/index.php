@@ -9,9 +9,10 @@
     
     <h1>Fita 1: Generació HTML</h1>
 
-    <p><a href="ex11taules.php">Exercici 1.1 - Taules</a></p>
-    <p><a href="ex12batalla_naval.php">Exercici 1.2 - Batalla Naval</a></p>
-    <p><a href="ex13sudoku.php">Exercici 1.3 - Sudoku</a></p>
+    <?php
+    require_once "../../navigation_utils.php";
+    llistarFitxers();
+    ?>
     
 </body>
 </html>
