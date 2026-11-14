@@ -1,9 +1,9 @@
 <html>
 <head>
-	<title>Unitat2 - Ex 4.1</title>
+	<title>Ex 4.1 - Països per continent</title>
 </head>
 <body>
-	<h1>Exercici 4.1: Filtrar per continent</h1>
+	<h1>Exercici 4.1: Filtrar països per continent</h1>
 	<form method="post">
 		<select name="continent" id="continent">
             <option value="">--- Tria ---</option>
@@ -25,7 +25,7 @@
 		if (!empty($_POST['continent'])) {
 		    $continent = $_POST['continent'];
 		}
-		$consulta = "SELECT Name from country WHERE country.continent like '%$continent%'";
+		$consulta = "SELECT Name from country WHERE country.Continent like '%$continent%'";
 		$resultat = consultarBBDD($consulta);
 	?> 
 	<h4>Llistat de països</h4>
