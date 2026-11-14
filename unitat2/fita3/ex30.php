@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Unitat2 - Ex 3.0</title>
+	<title>Ex 3.0 - Ciutats per nom</title>
 	<style>
 		table,td {
 			border: 1px solid black;
@@ -13,10 +13,10 @@
 	</style>
 </head>
 <body>
-	<h1>Exercici 3.0: Filtrar per nom</h1>
+	<h1>Exercici 3.0: Filtrar ciutats per nom</h1>
 	<form method="post">
 		<input type="text" name="filtre">
-		<input type="submit" value="enviar">
+		<input type="submit" value="Enviar">
 	</form>
 	<?php
 		if (!empty($_POST['filtre'])) {

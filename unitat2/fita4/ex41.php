@@ -19,7 +19,7 @@
                 }
             ?>
         </select>
-		<input type="submit" value="enviar">
+		<input type="submit" value="Enviar">
 	</form>
 	<?php
 		if (!empty($_POST['continent'])) {
