@@ -14,7 +14,7 @@
 		}
 		$consulta = "SELECT DISTINCT Language, IsOfficial FROM countrylanguage WHERE Language like '%$filtre%' ORDER BY Language";
 		require_once "../bbdd_utils.php";
-		$resultat = consultarBBDD($consulta);
+		$resultat = consultarMySQL($consulta);
 	?> 
 	<table>
     <h4>Llistat de llengües</h4>

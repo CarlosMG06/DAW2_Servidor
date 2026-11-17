@@ -11,7 +11,7 @@
                 require_once "../bbdd_utils.php";
 
                 $consulta = "SELECT DISTINCT Continent FROM country";
-		        $resultat = consultarBBDD($consulta);
+		        $resultat = consultarMySQL($consulta);
                 while( $registre = mysqli_fetch_assoc($resultat) )
 		        {
                     $c = $registre['Continent'];
@@ -26,7 +26,7 @@
 		    $continent = $_POST['continent'];
 		}
 		$consulta = "SELECT Name from country WHERE country.Continent like '%$continent%'";
-		$resultat = consultarBBDD($consulta);
+		$resultat = consultarMySQL($consulta);
 	?> 
 	<h4>Llistat de països</h4>
     <ul>

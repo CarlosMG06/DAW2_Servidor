@@ -30,7 +30,7 @@
 		}
 		$consulta = "SELECT * FROM city $where ORDER BY population desc";
 		require_once "../bbdd_utils.php";
-		$resultat = consultarBBDD($consulta);
+		$resultat = consultarMySQL($consulta);
 	?> 
 	<table>
 	<thead><td colspan="4">Llistat de ciutats</td></thead>

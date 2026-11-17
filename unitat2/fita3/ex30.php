@@ -24,7 +24,7 @@
 		}
 		$consulta = "SELECT * FROM city where name like '%$filtre%' ";
 		require_once "../bbdd_utils.php";
-		$resultat = consultarBBDD($consulta);
+		$resultat = consultarMySQL($consulta);
 	?> 
 	<table>
 	<thead><td colspan="4">Llistat de ciutats</td></thead>

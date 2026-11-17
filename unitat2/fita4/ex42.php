@@ -9,7 +9,7 @@
 			require_once "../bbdd_utils.php";
 
 			$consulta = "SELECT DISTINCT Continent FROM country";
-			$resultat = consultarBBDD($consulta);
+			$resultat = consultarMySQL($consulta);
 			while( $registre = mysqli_fetch_assoc($resultat) )
 			{
 				$c = $registre['Continent'];
@@ -27,7 +27,7 @@
 			$where = "WHERE country.Continent IN ($continentsStr)";
 		}
 		$consulta = "SELECT Name from country $where";
-		$resultat = consultarBBDD($consulta);
+		$resultat = consultarMySQL($consulta);
 	?> 
 	<h4>Llistat de països</h4> 
     <ul>
